@@ -58,7 +58,7 @@ function addProductToCart(productId){
    }
 };
 
-addProductToCart(productId);
+addProductToCart();
 /* Create a function named increaseQuantity that takes in the productId as an argument
   - increaseQuantity should get the correct product based on the productId
   - increaseQuantity should then increase the product's quantity
